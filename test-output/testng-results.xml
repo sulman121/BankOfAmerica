@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="134812" started-at="2019-07-28T18:50:19Z" finished-at="2019-07-28T18:52:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="134812" started-at="2019-07-28T18:50:19Z" finished-at="2019-07-28T18:52:34Z">
+      <class name="Runner.DefaultRunner">
+        <test-method status="PASS" signature="SetUpClass()[pri:0, instance:Runner.DefaultRunner@6e1ec318]" name="SetUpClass" is-config="true" duration-ms="123" started-at="2019-07-28T18:50:19Z" finished-at="2019-07-28T18:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.DefaultRunner@6e1ec318]" name="feature" duration-ms="134603" started-at="2019-07-28T18:50:19Z" data-provider="features" finished-at="2019-07-28T18:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["practing random stuff"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.DefaultRunner@6e1ec318]" name="feature" duration-ms="50243" started-at="2019-07-28T18:50:19Z" data-provider="features" finished-at="2019-07-28T18:51:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All information using excel file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["entering the application info"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.DefaultRunner@6e1ec318]" name="feature" duration-ms="30589" started-at="2019-07-28T18:50:19Z" data-provider="features" finished-at="2019-07-28T18:50:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the color of the text Box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["entering the application info"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title Doesn't Match expected [Your Application] but found [Credit Cards: Find & Apply for a Credit Card Online at Bank of America]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title Doesn't Match expected [Your Application] but found [Credit Cards: Find & Apply for a Credit Card Online at Bank of America]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at Steps.GUIStepDefination.user_Verify_the_Title(GUIStepDefination.java:85)
+at ✽.user Verify the Title(file:Applicationinfo.feature:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.DefaultRunner@6e1ec318]" name="feature" duration-ms="35017" started-at="2019-07-28T18:50:19Z" data-provider="features" finished-at="2019-07-28T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["view all card feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["view all card"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Runner.DefaultRunner@6e1ec318]" name="teardown" is-config="true" duration-ms="34" started-at="2019-07-28T18:52:34Z" finished-at="2019-07-28T18:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Runner.DefaultRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
