@@ -118,7 +118,7 @@ public class GUIStepDefination extends Lib {
 
 		driver.findElement(By.xpath(ReadProperties("State"))).sendKeys(Readexcel.getCellData("Sheet1", "State", 2));
 
-		//Thread.sleep(2000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath(ReadProperties("Zipcode"))).sendKeys(Readexcel.getCellData("Sheet1", "Zipcode", 2));
 	}
 
