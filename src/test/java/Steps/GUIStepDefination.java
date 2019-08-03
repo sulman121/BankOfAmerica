@@ -64,6 +64,8 @@ public class GUIStepDefination extends Lib {
 	@Then("user click on Shop All Cards")
 	public void user_click_on_Shop_All_Cards() throws IOException {
 		driver.findElement(By.id("btnCompareCreditCards")).click();
+		String title = driver.getTitle();
+		System.out.println(title);
 
 	}
 
